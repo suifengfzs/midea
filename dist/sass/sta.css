@@ -1,0 +1,83 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+body {
+  height: 100%;
+  background-color: #fff;
+  color: #666;
+  font: 12px/1.5 'Lucida Grande', Arial, '\5FAE\8F6F\96C5\9ED1', '\5b8b\4f53'; }
+
+a {
+  color: #172c45;
+  text-decoration: none; }
+
+a:hover {
+  color: red;
+  text-decoration: none; }
+
+em {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  word-wrap: break-word; }
+
+.ind {
+  text-indent: 2em; }
+
+.ind10 {
+  text-indent: 10px; }
+
+.noborder {
+  border: 0; }
+
+.clear {
+  zoom: 1; }
+
+.clear:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+.header,
+.service_wrap_footer,
+.footer {
+  min-width: 1200px; }
+
+.header,
+.header .inner,
+.inner_wrap {
+  zoom: 1; }

@@ -1,0 +1,283 @@
+[{
+        "id": 1,
+        "name": "空调",
+        "info": "挂壁式",
+        "list": [{
+                "list_id": 101,
+                "list_name": "挂壁空调",
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ddffd7562c54f9166fa876c143ff22.png?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "立柜式空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10003.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "中央空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10004.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "移动空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10007.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "天花机",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10282.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+
+    },
+
+    {
+        "id": 2,
+        "name": "冰箱",
+        "info": "三门冰箱",
+        "list": [{
+                "list_id": 101,
+                "list_name": "单门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10009.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "双门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10010.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "多门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10012.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "对开门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10013.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "三门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10011.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 1011,
+                "list_name": "冷柜",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10014.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+
+    },
+    {
+        "id": 3,
+        "name": "洗衣机",
+        "info": "滚筒洗衣机",
+        "list": [{
+                "list_id": 101,
+                "list_name": "挂壁空调",
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ddffd7562c54f9166fa876c143ff22.png?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "立柜式空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10003.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "中央空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10004.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "移动空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10007.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "天花机",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10282.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "厨房小电",
+        "info": "电饭煲",
+        "list": [{
+                "list_id": 101,
+                "list_name": "单门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10009.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "双门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10010.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "多门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10012.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "对开门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10013.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "三门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10011.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 1011,
+                "list_name": "冷柜",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10014.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+
+    },
+    {
+        "id": 5,
+        "name": "厨房大电",
+        "info": "烟灶套装",
+        "list": [{
+                "list_id": 101,
+                "list_name": "挂壁空调",
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ddffd7562c54f9166fa876c143ff22.png?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "立柜式空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10003.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "中央空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10004.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "移动空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10007.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "天花机",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10282.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "生活家电",
+        "info": "滚筒洗衣机",
+        "list": [{
+                "list_id": 101,
+                "list_name": "单门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10009.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "双门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10010.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "多门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10012.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "对开门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10013.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "三门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10011.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 1011,
+                "list_name": "冷柜",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10014.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+
+    },
+    {
+        "id": 7,
+        "name": "热水器/净水",
+        "info": "热水器",
+        "list": [{
+                "list_id": 101,
+                "list_name": "挂壁空调",
+                "list_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ddffd7562c54f9166fa876c143ff22.png?thumb=1&w=160&h=110&f=webp&q=90"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "立柜式空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10003.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "中央空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10004.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "移动空调",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10007.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "天花机",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10282.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "配件及周边",
+        "info": "清洗服务",
+        "list": [{
+                "list_id": 101,
+                "list_name": "单门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10009.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+
+            },
+            {
+                "list_id": 102,
+                "list_name": "双门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10010.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 103,
+                "list_name": "多门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10012.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 104,
+                "list_name": "对开门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10013.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 105,
+                "list_name": "三门冰箱",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10011.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            },
+            {
+                "list_id": 1011,
+                "list_name": "冷柜",
+                "list_url": "https://pic.midea.cn/h5/img/mall/category_sub/category_10014.png?x-oss-process=image/format,webp/quality,Q_90&@32w_32h_90Q.png?t=20191219"
+            }
+        ]
+
+    }
+]
