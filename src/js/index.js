@@ -163,7 +163,6 @@ function getList3() {
                     })
                     $('.operate_wrap>ul').html(str)
                 })
-
         }
     })
 
@@ -174,56 +173,53 @@ function getList3() {
 
 // 轮播图
 
-// getLunbo()
+getLunbo()
 
-// function getLunbo() {
-//     $.ajax({
-//         url: '../lib/lunbo.json',
-//         dataType: 'json',
-//         success: function(res) {
-//             console.log(res)
-//             let str = ``
-//             res.forEach(item => {
-//                 str += `
-//                 <div class="swiper-slide">
-//                 <img src="${item.urls}" alt="">
-//                 </div>
-//                 `
-//             })
-//             $('.swiper-wrapper').html(str)
-//         }
-//     })
-// }
-$(document).ready(function() {
-    var mySwiper = new Swiper('.swiper-container', {
-        //    // direction: 'vertical', // 垂直切换选项
-        //    loop: true, // 循环模式选项
-        //    autoplay: {
-        //        delay: 1000
-        //    },
-        // direction: 'vertical', // 垂直切换选项
-        loop: true, // 循环模式选项
-        autoplay: {
-            delay: 2000
-        },
-        // 如果需要分页器
-        pagination: {
-            el: '.swiper-pagination',
-        },
+function getLunbo() {
+    $.ajax({
+        url: '../lib/lunbo.json',
+        dataType: 'json',
+        success: function(res) {
+            // console.log(res)
+            let str = ``
+            res.forEach(item => {
+                str += `
+                <div class="swiper-slide">
+                <img src="${item.urls}" alt="">
+                </div>
+                `
+            })
+            $('.swiper-wrapper').html(str)
 
-        // 如果需要前进后退按钮
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+            // $(document).ready(function() {
+            var mySwiper = new Swiper('.swiper-container', {
 
-        // 如果需要滚动条
-        // scrollbar: {
-        //     el: '.swiper-scrollbar',
-        // },
+                loop: true, // 循环模式选项
+                autoplay: {
+                    delay: 2000
+                },
+                // 如果需要分页器
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // 如果需要前进后退按钮
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // 如果需要滚动条
+                // scrollbar: {
+                //     el: '.swiper-scrollbar',
+                // },
+            })
+
+        }
     })
-})
 
+
+}
 
 $('.swiper-container').hover(() => {
     $('.swiper-button-prev').show()
@@ -234,4 +230,115 @@ $('.swiper-container').hover(() => {
 
 })
 
-// 加载图片
+//推荐位
+
+getRec()
+
+function getRec() {
+    $.ajax({
+        url: '../lib/rec_img.json',
+        dataType: 'json',
+        cache: false,
+        success: function(res) {
+            // console.log(res)
+            let str = ``
+            res.forEach(item => {
+                str += `
+                <li>
+                    <a class="url" target="_blank" href="">
+                        <img class="photo" src="${item.img_url}" alt="${item.title}">
+                    </a>
+                </li>
+                `
+            })
+            $('.rec_wrap>ul').html(str)
+        }
+    })
+}
+
+
+//明星单层楼层渲染
+
+getProduct()
+
+function getProduct() {
+    $.ajax({
+        url: '../lib/minxing.json',
+        dataType: 'json',
+        cache: false,
+        success: function(res) {
+            let str = ``
+            res.forEach((item, index) => {
+                str += `
+                    <div class="product product_${index+1}">
+                        <a class="url" target="_blank" href="">
+                            <div class="tag_wrap">
+                                <i class="tag_pro_jx"></i>
+                            </div>
+                            <img class="photo" src="${item.urls}" alt="">
+                            <span class="title">${item.title}</span>
+                            <span class="price_wrap">¥<span class="price">${item.price}</span>
+                            <span class="price_pro">¥<em>${item.price_pro}</em><i class="tag_pro"></i></span>
+                        </a>
+                </div>
+                    `
+            })
+            $('.floor_1').html(str)
+                // $('.floor_2').html(str)
+
+        }
+    })
+}
+
+
+//vip专区
+
+getVip()
+
+function getVip() {
+    $.ajax({
+        url: '../lib/vip_img.json',
+        dataType: 'json',
+        cache: false,
+        success: function(res) {
+            let str = ``
+            res.forEach(item => {
+                str += `
+                <li>
+                    <a href="">
+                        <img class="photo" src="${item.url}" alt="${item.name}">
+                    </a>
+                    <a class="btn" target="_blank" href="">${item.name}</a>
+                </li>
+                `
+            })
+            $('.vip_wrap>ul').html(str)
+        }
+    })
+}
+
+//底部
+
+getFooterList()
+
+function getFooterList() {
+    $.ajax({
+        url: '../lib/footer.json',
+        dataType: 'json',
+        cache: false,
+        success: function(res) {
+            let str = ``
+            res.forEach(item => {
+                str += `
+                    <li>
+                        <a href="" target="_blank">
+                            <h3>${item.title}</h3>
+                        </a>
+                    </li>
+                `
+            })
+            $('.foot_links').html(str)
+        }
+
+    })
+}
