@@ -3,6 +3,32 @@
 // .addClass('active') // 添加类名
 // .siblings() // 所有兄弟元素(不包含自己)
 // .removeClass('active') // 移除类名
+
+
+
+$('.search_wrap')
+    .on('mouseover', () => {
+        $('.opt_search').addClass('opt_search_hover')
+
+        $('.search_wrap>form').css({
+            display: 'block'
+        })
+
+
+    })
+    .on('mouseout', () => {
+        $('.opt_search').removeClass('opt_search_hover')
+        $('.search_wrap>form').css({
+            display: 'none'
+        })
+    })
+
+
+
+
+
+
+
 $('.opt_wx')
     .hover(() => {
         $('.wx_wrap').show()

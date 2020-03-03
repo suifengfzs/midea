@@ -65,20 +65,12 @@
             width: 75px;
             background: none;
             height: 44px;
-            -webkit-transition: width .5s;
-            -moz-transition: width .5s;
-            -ms-transition: width .5s;
-            -o-transition: width .5s;
             transition: width .5s;
-            -webkit-user-select: none;
             form {
                 display: none;
             }
             input {
                 display: block;
-                -webkit-border-radius: 12px;
-                -moz-border-radius: 12px;
-                -ms-border-radius: 12px;
                 font-family: \5b8b\4f53;
                 width: 100%;
                 height: 44px;
@@ -98,6 +90,9 @@
                 cursor: pointer;
             }
         }
+        // .search_wrap:hover {
+        //     width: 250px;
+        // }
         .icon_search {
             top: 12px;
             background-position: -96px -215px;
@@ -177,6 +172,16 @@
         left: auto;
         right: 0;
     }
+}
+
+.header .opt_wrap .opt_search_hover .search_wrap {
+    width: 250px;
+}
+
+.header .opt_wrap .opt_search_hover .icon_search {
+    top: 12px;
+    left: 10px;
+    background-position: -66px -215px;
 }
 
 .header .icon_opt,

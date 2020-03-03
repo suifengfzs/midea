@@ -1,0 +1,1 @@
+"use strict";$(".reg").click(function(){$(".login").addClass("hide").removeClass("show"),$(".register").addClass("show").removeClass("hide")}),$(".other_login").click(function(){$(".login").addClass("show").removeClass("hide"),$(".register").addClass("hide").removeClass("show")}),$(".login_btn").click(function(){$("form")[0].submit()});
