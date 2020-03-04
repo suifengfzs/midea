@@ -83,8 +83,8 @@ function getList1() {
 
             // 准备一个空字符串
             let str1 = '';
-            let str2 = '';
-            let str3 = '';
+            // let str2 = '';
+            // let str3 = '';
             res.forEach((item, index) => {
                 // console.log(item.list)
                 str1 += ` 

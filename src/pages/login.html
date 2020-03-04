@@ -38,12 +38,11 @@
                     <div class="login_type login_type1">
                         <div class="login_form ap_form">
                             <!-- 数据提交 -->
-                            <form action="/fzs" method="POST">
+                            <form action="">
                                 <div class="login_form_tit">账号密码登录</div>
                                 <!-- 输入账号 -->
                                 <div class="login_form_row">
-
-                                    <div class="login_form_label" style="display: none;">手机号</div>
+                                    <div class="login_form_label" style="display: none;">账号</div>
                                     <div class="login_form_cnt">
                                         <!-- 输入账号 -->
                                         <input type="text" class="js_telephone" name="uname" maxlength="13" placeholder="账号" autocomplete="off">
@@ -58,14 +57,14 @@
                                     <!-- 错误提示 -->
                                     <div class="login_form_label" style="display: none;">密码</div>
                                     <div class="login_form_cnt">
-                                        <input type="password" class="js_password" name="upwd" maxlength="20" placeholder="密码" oncopy = "return false"  onselectstart="return false" oncut = "return false" oncopy = "return false" onpaste="return false" autocomplete="off">
+                                        <input type="password" class="js_password" name="upwd" maxlength="20" placeholder="密码" oncopy="return false" onselectstart="return false" oncut="return false" oncopy="return false" onpaste="return false" autocomplete="off">
                                     </div>
                                     <!-- 错误提示文本 -->
-                                    <div class="login_from_error_tips js_password_tips hide">密码长度必须在6到20位之间</div>
+                                    <div class="login_from_error_tips js_password_tips hide">错误提示</div>
                                 </div>
                                 <div class="login_form_row">
                                     <div class="login_form_cnt">
-                                        <a class="login_btn" href="javascript:">登 录</a>
+                                        <a class="login_btn btns1" href="javascript:">登 录</a>
                                     </div>
                                 </div>
                                 <div class="login_links clear">
@@ -86,18 +85,27 @@
 
                             <div class="login_form_cnt top">
                                 <!-- 注册账号 -->
-                                <input type="text" class="js_password" maxlength="20" placeholder="账号" onselectstart="return false" onpaste="return false">
+                                <input type="text" class="js_password focus" id="number" maxlength="15" placeholder="账号" onselectstart="return false" onpaste="return false">
                             </div>
                             <div class="login_form_cnt top">
                                 <!-- 注册密码 -->
-                                <input type="password" class="js_password_confirm" maxlength="20" onselectstart="return false" onpaste="return false" placeholder="密码">
+                                <input type="password" class="js_password_confirm focus" id="pwd" maxlength="15" onselectstart="return false" onpaste="return false" placeholder="密码">
                             </div>
                             <div class="login_form_cnt">
                                 <!-- 确认密码 -->
-                                <input type="password" class="js_password_confirm top" maxlength="20" onselectstart="return false" onpaste="return false" placeholder="确认密码">
+                                <input type="password" class="js_password_confirm top focus" id="spwd" maxlength="15" onselectstart="return false" onpaste="return false" placeholder="确认密码">
+                            </div>
+
+                            <div class="login_from_error_tips js_password_confirm_tips">
+                                <span>两次密码不一致</span>
                             </div>
                             <div class="login_form_row">
-                                <a class="login_btn" href="javascript:">注册</a>
+                                <div class="login_from_tips">
+                                    <span>密码长度8~15之间，含大小写字母、数字、符号至少三种,</span>
+                                </div>
+                            </div>
+                            <div class="login_form_row">
+                                <a class="login_btn btns2" id="tbns" href="javascript:">注册</a>
                             </div>
                             <div class="login_links clear">
                                 <a href="javascript:" class="other_login">已有账号？请登录</a>
