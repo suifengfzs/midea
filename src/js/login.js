@@ -88,8 +88,8 @@ $('.btns2').click(() => {
         var number = $.trim($('#number').val())
         var pwd = $.trim($('#pwd').val())
         var spwd = $.trim($('#spwd').val())
-        console.log(number.length)
-        console.log(pwd.length)
+            // console.log(number.length)
+            // console.log(pwd.length)
 
         // 请求前判断数据
         if (number == '' || pwd == '' || spwd == '') {
@@ -122,7 +122,7 @@ $('.btns2').click(() => {
                     spwd: pwd,
                 },
                 success: function(res) {
-                    console.log(res)
+                    // console.log(res)
                     if (res) {
                         if (confirm('注册成功!是否要登录?')) {
                             $('.login')
