@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/cart.css">
 </head>
 
-<body>
+<body style="height: 3000px;">
     <!-- 头部 -->
     <div class="header">
         <div class="inner">
@@ -135,11 +135,11 @@
     </div>
 
     <!-- 购物车链表 -->
-    <div class="cart_body">
+    <div class="cart_body btnsp">
         <div class="cart_detail">
             <ul class="cart_title_wrap">
                 <li class="cart_choose">
-                    <input type="checkbox"><span style="margin-left: 10px;">全选</span>
+                    <input type="checkbox" id="check" class="selectAll"><span style="margin-left: 10px;">全选</span>
                 </li>
                 <li class="cart_product">商品信息</li>
                 <li class="cart_sku">规格</li>
@@ -160,51 +160,56 @@
                     </li>
                 </ul>
                 <!-- 购物车里面的商品信息 -->
-                <div class="item_detail">
-                    <div class="item_sub">
-                        <div class="cart_choose right">
-                            <input type="checkbox">
-                        </div>
-                        <div class="item_sub_detail">
-                            <div class="cart_img">
-                                <img src="https://pic.midea.cn/ImageStore/167023/pic/23cdb0a6fa45ed8fA17351/23cdb0a6fa45ed8fA17351_120*120.jpg">
+                <div class="gwbox">
+                    <!-- <div class="item_detail ">
+                        <div class="item_sub">
+                            <div class="cart_choose right">
+                                <input type="checkbox">
                             </div>
-                            <div class="cart_product">
-                                <div class="title-box">
-                                    <a href="javascript:void(0)">
+                            <div class="item_sub_detail">
+                                <div class="cart_img">
+                                    <img src="https://pic.midea.cn/ImageStore/167023/pic/23cdb0a6fa45ed8fA17351/23cdb0a6fa45ed8fA17351_120*120.jpg">
+                                </div>
+                                <div class="cart_product">
+                                    <div class="title-box">
+                                        <a href="javascript:void(0)">
                                         【限时秒杀】446L十字对开门冰箱 pst+净味 智能风冷 BCD-446WTPZM(E)                                    </a>
+                                    </div>
+                                    <div class="service-opt service-opt__selected js_select_service">
+                                        <i class="icon_services"></i>
+                                        <span>选服务</span>
+                                    </div>
                                 </div>
-                                <div class="service-opt service-opt__selected js_select_service">
-                                    <i class="icon_services"></i>
-                                    <span>选服务</span>
+                                <div class="cart_sku">
+                                    <span class="sku_color">莫兰迪灰</span>
+                                    <span class="sku_spec">十字446L</span>
                                 </div>
-                            </div>
-                            <div class="cart_sku">
-                                <span class="sku_color">莫兰迪灰</span>
-                                <span class="sku_spec">十字446L</span>
-                            </div>
-                            <div class="cart_price">
-                                <span class="price_new">4999.00</span>
-                            </div>
-                            <!-- 加减 -->
-                            <div class="cart_num">
-                                <!-- 下架或者删除或者换赠品-->
-                                <div class="num_wrap num_wrap_inline  js_num">
-                                    <span class="minus">-</span>
-                                    <input class="num inp_bl" type="text" pattern="\d{0,3}" data-type="product" value="1">
-                                    <span class="plus">+</span>
+                                <div class="cart_price">
+                                    <span class="price_new">4999.00</span>
                                 </div>
-                            </div>
-                            <!-- 小计 -->
-                            <div class="cart_total">
-                                4999.00
-                            </div>
-                            <div class="cart_operation">
-                                <span class="operation_delete js_item_delete">删除</span>
+
+                                <div class="cart_num">
+
+                                    <div class="num_wrap num_wrap_inline  js_num">
+                                        <span class="minus">-</span>
+                                        <input class="num inp_bl" type="text" value="1">
+                                        <span class="plus">+</span>
+                                    </div>
+                                </div>
+
+                                <div class="cart_total">
+                                    4999.00
+                                </div>
+                                <div class="cart_operation">
+                                    <span class="operation_delete js_item_delete">删除</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+
                 </div>
+
+
             </div>
         </div>
 
@@ -213,7 +218,7 @@
                 <i class="tag_pro"></i> 开通PRO会员，立享全场家电270元券礼包
                 <a class="pro-bar__btn" href="">立即开卡&nbsp;></a>
             </div>
-            <div class="cart_bottom">
+            <div class="cart_bottom btnsp">
                 <div class="cart_sum_left">
                     <div class="cart_sum_choose dis">
                         <input type="checkbox"><span>全选</span>

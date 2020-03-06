@@ -368,3 +368,9 @@ function getFooterList() {
 
     })
 }
+
+
+// 回到顶部
+$('.tos').click(() => {
+    $(window).scrollTop(0)
+})

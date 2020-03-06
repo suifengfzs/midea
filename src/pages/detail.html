@@ -7,6 +7,7 @@
     <title>商品详情</title>
     <link rel="stylesheet" href="../css/sta.css">
     <link rel="stylesheet" href="../css/detail.css">
+    <link href="dist/css/jquery.exzoom.css" rel="stylesheet">
 </head>
 
 <body>
@@ -136,6 +137,12 @@
             </div>
 
         </div>
+
+
+
+
+
+
         <div class="product_wrap">
             <!-- 放大镜 -->
             <div class="product_left">
@@ -153,20 +160,21 @@
                 <!-- 放大镜下面的小图链 -->
                 <ul class="thumbnails">
                     <li>
-                        <a><img src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
+                        <a><img id="lis_img" src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
                     </li>
                     <li>
-                        <a><img src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
+                        <a><img id="lis_img" src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
                     </li>
                     <li>
-                        <a><img src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
+                        <a><img id="lis_img" src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
                     </li>
                     <li>
-                        <a><img src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
+                        <a><img id="lis_img" src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
                     </li>
                     <li>
-                        <a><img src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
+                        <a><img id="lis_img" src="https://pic.midea.cn/ImageStore/152554/pic/057b574d8f3a7dc9A28852/057b574d8f3a7dc9A28852_120*120.jpg?x-oss-process=image/format,webp/quality,Q_90&amp;"></a>
                     </li>
+
                 </ul>
                 <div class="share_collect">
                     <!-- 分享组合 -->
@@ -189,7 +197,7 @@
             <div class="product_right">
                 <!-- 大标题 -->
                 <h1>
-                    <span class="self_product">自营</span> 大1.5匹智能冷暖家用空调挂机 KFR-35GW/WCBN8A3@
+                    <span class="self_product">自营</span> <em id="titles">大1.5匹智能冷暖家用空调挂机 KFR-35GW/WCBN8A3@</em>
                 </h1>
                 <!-- 急速保价 -->
                 <a href="">
@@ -213,7 +221,7 @@
                                 <span class="currency_symbol"></span>
                             <b class="price">1799.00</b>
                             </span>
-                            <del class="old_price">¥2499.00</del>
+                            <!-- <del class="old_price">¥2499.00</del> -->
                             <div class="sku_tag sku_tag_important">38女王节</div>
                             <p class="pro_info_wrap">
                                 <span class="pro_price">
